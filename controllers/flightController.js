@@ -62,7 +62,7 @@ exports.updateFlight =  async (req, res)=>{
 };
 
 // deleting flight
-exports.deleteFlight = async(res,req)=>{
+exports.deleteFlight = async(req,res)=>{
     try{
         let id = req.params.id
         const flight = exampleModel.find((flight)=>flight.id ==id);
