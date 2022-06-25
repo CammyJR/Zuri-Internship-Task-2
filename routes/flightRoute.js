@@ -8,6 +8,6 @@ router
 .get('/:id',controller.bookFlight)
 .post('/', controller.getFlight)
 .put('/:id',controller.updateFlight)
-.delete('/:id', controller.deleteUser);
+.delete('/:id', controller.deleteFlight);
 
 module.exports = router;
